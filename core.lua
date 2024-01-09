@@ -206,7 +206,7 @@ script.Parent.AwareNetwork.Event:Connect(function(what,wat,title,context)
 			end
 		end
 		--if kitchen then
-			screen.Parent.Parent.Parent.Parent.Parent.Addons.AddonAPI:Fire("NewOrder",items,73924)
+			screen.Parent.Parent.Parent.Parent.Parent.Addons.AddonAPI:Fire("NewOrder",items,"0"...math.random(10,99))
 		--end
 		api:Fire("ResetTerminal")
 		main.Info.Visible = false
